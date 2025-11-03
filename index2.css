@@ -41,7 +41,7 @@
 @keyframes aboutHeading {
     
     0%{
-        transform : translateX(-200px);
+        transform : translateX(-100px);
         opacity : 0;
     }
     100%{
@@ -53,7 +53,7 @@
 @keyframes aboutDetail {
     
     0%{
-        transform : translateX(200px);
+        transform : translateX(100px);
         opacity : 0;
     }
     100%{
