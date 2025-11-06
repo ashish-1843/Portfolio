@@ -1,315 +1,317 @@
 @keyframes cursor {
-    50%{ border-color : transparent;}  
+    50% {
+        border-color: transparent;
+    }
 }
 
-/* @keyframes typing {
-  0% { content: "Web Designer."; width: 0ch; }
-  20% { content: "Web Designer."; width: 6ch; }   
-  30% { width: 0ch; }                     
-  40% { content: "Full Stack Developer."; width: 0ch; }
-  60% { content: "Full Stack Developer."; width: 5ch; }    
-  70% { width: 0ch; }                     
-  80% { content: "Gamer.";width: 0ch; }
-  100% { content: "Gamer."; width: 5ch; }   
-} */
 
-/* @keyframes words {
-    0%,20%{
-        content : "Web Designer.";
-    }
-   
-    40%,60%{
-        content : "Full Stack Developer.";
-    }
-    80%,100%{
-        content : "Gamer.";
-    }
-    
-} */
 
 @keyframes sliderBottom {
-    0%{
-        transform : translateY(-500px);
-        opacity : 0;
+    0% {
+        transform: translateY(-500px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
 @keyframes aboutHeading {
-    
-    0%{
-        transform : translateX(-100px);
-        opacity : 0;
+
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
 @keyframes aboutDetail {
-    
-    0%{
-        transform : translateX(100px);
-        opacity : 0;
+
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
-@keyframes sliderTop{
-    0%{
-        transform : translateX(-100px);
-        opacity : 0;
+@keyframes sliderTop {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
     }
-    100%{
-        transform: translateX   (0px);
-        opacity : 1;
+
+    100% {
+        transform: translateX (0px);
+        opacity: 1;
     }
 }
 
-@keyframes skillanimation{
-    
-    0%{
-        transform : translateX(-100px);
-        opacity : 0;
+@keyframes skillanimation {
+
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
-@keyframes project-1animation{
-    
-    0%{
-        transform : translateX(-200px);
-        opacity : 0;
+@keyframes project-1animation {
+
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
-@keyframes project-2animation{
-    
-    0%{
-        transform : translateY(-100px);
-        opacity : 0;
+@keyframes project-2animation {
+
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
-@keyframes project-3animation{
-    
-    0%{
-        transform : translateX(200px);
-        opacity : 0;
+
+@keyframes project-3animation {
+
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity : 1;
+        opacity: 1;
     }
 }
 
-@keyframes contact{
-    0%{
-        opacity : 0;
+@keyframes contact {
+    0% {
+        opacity: 0;
     }
-    100%{
-        opacity : 1;
+
+    100% {
+        opacity: 1;
     }
 }
 
 
 
-@media(max-width : 820px)
-{
-    /* .home-section h3::after{
-        content : "\A";
-        white-space: pre;
-    } */
-    .home-section span::after{
+@media(max-width : 820px) {
+
+    .home-section span::after {
         content: "\A";
     }
 
-    .home-section span::before{
-        content : " ";
-        content : "\A";
+    .home-section span::before {
+        content: " ";
+        content: "\A";
         white-space: pre;
-        animation : none;
-        font-size : 26px;
+        animation: none;
+        font-size: 26px;
     }
-    
-    #about-heading.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #about-heading.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #about-detail.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #about-detail.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-1.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-1.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-2.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-2.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-3.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-3.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-4.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-4.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-5.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-5.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-6.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-6.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-7.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-7.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #skill-8.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #skill-8.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #project-1.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #project-1.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #project-2.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #project-2.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #project-3.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #project-3.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
-    #contact.scrolled{
-        opacity : 1 !important;
-        animation : none !important;
+
+    #contact.scrolled {
+        opacity: 1 !important;
+        animation: none !important;
     }
 
 }
 
 
-@media (max-width : 820px)
-{
+@media (max-width : 820px) {
 
-    .navbar-section{
-        display : none;
-    }
-    .home-photo{
-        display : none;
+    .navbar-section {
+        display: none;
     }
 
-    .home-section h3{
-        font-size : 28px;
-    }
-    .home-section h1{
-        font-size : 52px;
+    .home-photo {
+        display: none;
     }
 
-    .header-section .Ashish{
-        margin-left : 20px;
+    .home-section h3 {
+        font-size: 28px;
     }
-    #About-section{
-        display : block;
-        margin-top : 140px;
+
+    .home-section h1 {
+        font-size: 52px;
     }
-    #About-section h1{
-        text-align : center;
+
+    .header-section .Ashish {
+        margin-left: 20px;
     }
-    #About-section p{
-        text-align : start;
-        font-size : 15px;
+
+    #About-section {
+        display: block;
+        margin-top: 140px;
     }
-    .skill-div{
-        width : 120px;
-        height : 140px;
+
+    #About-section h1 {
+        text-align: center;
     }
-    .skill-img img{
-        height : 60px;
+
+    #About-section p {
+        text-align: start;
+        font-size: 15px;
     }
-    .skill-div h3{
-        font-size : 18px;
-        margin-top : 8px;
-        text-align : center;
+
+    .skill-div {
+        width: 120px;
+        height: 140px;
     }
-    .project-div{
-        display : inline-flex;
+
+    .skill-img img {
+        height: 60px;
+    }
+
+    .skill-div h3 {
+        font-size: 18px;
+        margin-top: 8px;
+        text-align: center;
+    }
+
+    .project-div {
+        display: inline-flex;
         align-items: center;
         justify-content: center;
     }
-    .social-media-icons{
-        height : 80px;
-        width : 80px;
-    }
-    .social-media-icons h4{
-        margin-top : 10px;
-        font-size : 16px;
-    }
-    .mobileno h3{
+
+    .contact-info h3 {
         letter-spacing: normal;
-        font-size : 14px;
+        font-size: 14px;
     }
-    .mobileno p{
+
+    .contact-info p {
         letter-spacing: normal;
-        font-size : 14px;
-    }
-}
-@media(width : 912px){
-    .home-photo{
-        display : none;
-    }
-    .media{
-        width : 100%;
+        font-size: 14px;
     }
 }
 
-@media(width : 1024px){
-    .project-div{
-        width : 350px;
+@media(width : 912px) {
+    .home-photo {
+        display: none;
+    }
+
+    .media {
+        width: 100%;
     }
 }
-@media (max-width : 1200px)
-{
-    
-    .home-photo{
-        margin-left : 0px;
+
+@media(width : 1024px) {
+    .project-div {
+        width: 350px;
+    }
+}
+
+@media (max-width : 1200px) {
+
+    .home-photo {
+        margin-left: 0px;
     }
 
-    #about-heading h1{
-        font-size : 40px;
-        margin-left : 0px;
+    #about-heading h1 {
+        font-size: 40px;
+        margin-left: 0px;
     }
 
-    #about-detail p{
-        font-size : 14px;
+    #about-detail p {
+        font-size: 14px;
     }
 
-    .media{
-        margin-top : 0px;
+    .media {
+        margin-top: 0px;
     }
 
-     .project-div{
-        display : inline-flex;
+    .project-div {
+        display: inline-flex;
         align-items: center;
         justify-content: center;
     }
