@@ -6,6 +6,10 @@
     font-family: "Playfair Display", serif;
 }
 
+
+.toast-header{
+    color : white;
+}
 body {
 
     background: #1a1313;
