@@ -134,25 +134,7 @@ const words = ["Web Developer.", "Full Stack Developer.", "Gamer."];
 
     type();
 
-    function showToast(message, type="success") {
-  const toastEl = document.getElementById("liveToast");
-  const toastMsg = document.getElementById("toastMessage");
-
-  toastMsg.innerText = message;
-
-  // Built-in Bootstrap colors
-  if(type === "error"){
-    toastEl.classList.remove("bg-success");
-    toastEl.classList.add("bg-danger");
-  } else {
-    toastEl.classList.remove("bg-danger");
-    toastEl.classList.add("bg-success");
-  }
-
-  const toast = new bootstrap.Toast(toastEl);
-  toast.show();
-}
-
+   
 document.getElementById('contactform').addEventListener("submit" , async function(e){
     
     e.preventDefault();
@@ -174,5 +156,5 @@ const result = await res.json();
     document.getElementById("name").value=""
     document.getElementById("email").value=""
     document.getElementById("message").value=""
-    alert.showToast("Message Sent Successfully!");
+    alert("Message Sent Successfully!");
 });
