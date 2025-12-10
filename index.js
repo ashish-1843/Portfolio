@@ -146,7 +146,7 @@ const data = {
     msg : document.getElementById("message").value
 };
 
-const res = await fetch("http://localhost:5000/index", {
+const res = await fetch("https://portfolio-91jw.onrender.com/index", {
     method:"POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(data)
