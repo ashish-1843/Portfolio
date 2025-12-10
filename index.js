@@ -152,7 +152,7 @@ const res = await fetch("https://portfolio-91jw.onrender.com/index", {
     body: JSON.stringify(data)
 });
 
-// const result = await res.json();
+const result = await res.json();
     document.getElementById("name").value=""
     document.getElementById("email").value=""
     document.getElementById("message").value=""
