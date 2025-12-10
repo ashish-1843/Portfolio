@@ -146,7 +146,7 @@ const data = {
     msg : document.getElementById("message").value
 };
 
-const res = await fetch("https://portfolio-91jw.onrender.com/index", {
+const res = await fetch("https://ashish-feto.onrender.com/index", {
     method:"POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(data)
