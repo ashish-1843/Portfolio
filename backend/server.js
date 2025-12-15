@@ -14,8 +14,6 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.options("/*", cors());
-
 // Connect MongoDB
 mongoose.connect(process.env.MONGO_URI)
  .then(() => console.log("MongoDB Connected"))
