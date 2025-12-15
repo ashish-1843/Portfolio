@@ -135,7 +135,7 @@ const words = ["Web Developer.", "Full Stack Developer.", "Gamer."];
     type();
 
    
-document.getElementById('contactform').addEventListener("submit" , async function(e){
+document.getElementById('contactform').addEventListener("submit" , async (e) =>{
     
     e.preventDefault();
 
