@@ -146,13 +146,14 @@ const data = {
     msg : document.getElementById("message").value
 };
 
-const res = await fetch("https://portfolio-3-0mhy.onrender.com/index", {
+const res = await fetch("https://portfolio-3-0mhy.onrender.com/contact", {
     method:"POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(data)
 });
 
 const result = await res.json();
+    console.log(result)
     document.getElementById("name").value=""
     document.getElementById("email").value=""
     document.getElementById("message").value=""

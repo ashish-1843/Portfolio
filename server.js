@@ -1,13 +1,20 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
+const mongoose = require("mongoose");
 require("dotenv").config();
 
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["Content-Type"]
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.options("*", cors());
 
 // Connect MongoDB
 mongoose.connect(process.env.MONGO_URI)
@@ -25,7 +32,7 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model("Contact", contactSchema);
 
 // API Route to Save Data
-app.post("/index", async (req, res) => {
+app.post("/contact", async (req, res) => {
   try {
     const contact = new Contact(req.body);
     await contact.save();
@@ -36,9 +43,9 @@ app.post("/index", async (req, res) => {
 });
 
 // Start Server
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log("Server running on port " + PORT);
 });
-
 
 
