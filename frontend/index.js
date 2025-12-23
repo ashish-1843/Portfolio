@@ -134,11 +134,14 @@ const words = ["Web Developer.", "Full Stack Developer.", "Gamer."];
 
     type();
 
+
+const sendBtn = document.getElementById('sendBtn');
    
 document.getElementById('contactform').addEventListener("submit" , async (e) =>{
     
     e.preventDefault();
-
+    sendBtn.innerText = 'Sending...';
+    sendBtn.disabled = true;
 
 const data = {
     name : document.getElementById("name").value,
@@ -158,5 +161,7 @@ const result = await res.json();
     document.getElementById("email").value=""
     document.getElementById("message").value=""
     alert("Message Sent Successfully!");
+    sendBtn.innerText = "Send";
+    sendBtn.disabled = false;
 });
 
