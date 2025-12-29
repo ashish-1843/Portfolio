@@ -48,20 +48,32 @@ This portfolio website is built to highlight:
 
 portfolio-website/
 |── backend
+
 |     └── server.js
+
 |── frontend
+
 |     └── index.html
+
 |     └── index.css
+
 |     └── index2.css
+
 |     └── index.js
+
 |     └──images folder
-|── .env    
+
+|── .env 
+
 └── README.md
+
+
 
 
 🌍 Live Demo
 
 🔗 Live Website: https://portfolio-front-end-165b.onrender.com
+
 
 
 
@@ -74,6 +86,7 @@ If you’d like to connect or collaborate:
 • GitHub: https://github.com/your-username
 
 • LinkedIn: https://linkedin.com/in/your-profile
+
 
 
 ⭐ Acknowledgements
