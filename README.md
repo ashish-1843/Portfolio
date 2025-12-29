@@ -81,11 +81,11 @@ portfolio-website/
 
 If you’d like to connect or collaborate:
 
-• Email: your-email@example.com
+• Email: ashishdeshmukh1843@gmail.com
 
-• GitHub: https://github.com/your-username
+• GitHub: https://github.com
 
-• LinkedIn: https://linkedin.com/in/your-profile
+• LinkedIn: www.linkedin.com/in/ashish-deshmukh-009b20349
 
 
 
