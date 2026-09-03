@@ -63,7 +63,6 @@ portfolio-website/
 
 |     └──images folder
 
-|── .env 
 
 └── README.md
 
@@ -72,7 +71,7 @@ portfolio-website/
 
 🌍 Live Demo
 
-🔗 Live Website: https://portfolio-front-end-165b.onrender.com
+🔗 Live Website: (https://ashish-portfolio-bglb.onrender.com/)
 
 
 
